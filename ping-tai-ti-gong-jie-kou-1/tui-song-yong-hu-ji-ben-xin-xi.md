@@ -39,9 +39,129 @@ description: 用户在产品详情页，完成基础信息认证，并且通过�
 
 **1-1\) operatorVerify 运营商原始数据**
 
+{% file src="../.gitbook/assets/fileddescription.xlsx" caption="字段说明" %}
+
+```text
+{
+	"data": {
+		"identity_code": "513301199123123123",
+		"created_time": "2018-09-26 16:08:06",
+		"channel_src": "中国移动",
+		"user_mobile": "18301231234",
+		"task_data": {
+			"bill_info": [{
+				"bill_discount": null,
+				"bill_fee": "5810",
+				"usage_detail": [],
+				"bill_record": [{
+					"fee_name": "固定费用",
+					"fee_amount": "5800",
+					"fee_category": null,
+					"user_number": "18303019887"
+				}],
+				"bill_cycle": "2018-09",
+				"paid_amount": null,
+				"unpaid_amount": null,
+				"breach_amount": null,
+				"bill_total": "5810"
+			}],
+			"family_info": [],
+			"sms_info": [{
+				"total_msg_cost": "10",
+				"total_msg_count": "70",
+				"sms_record": [{
+					"msg_cost": "0",
+					"msg_channel": "短信",
+					"msg_fee": null,
+					"msg_biz_name": null,
+					"msg_start_time": "2018-09-01 10:30:45",
+					"msg_discount": null,
+					"msg_remark": null,
+					"msg_type": "接收",
+					"msg_address": "未知",
+					"msg_other_num": "10086"
+				}],
+				"msg_cycle": "2018-09"
+			}],
+			"account_info": {
+				"mobile_status": "正常",
+				"prom_available": null,
+				"credit_score": null,
+				"credit_point": "1063",
+				"balance_unavailable": null,
+				"account_balance": "832",
+				"balance_available": null,
+				"sim_card": null,
+				"land_level": null,
+				"prepay_unavailable": null,
+				"net_age": "73",
+				"real_info": "已登记",
+				"prepay_available": null,
+				"prom_unavailable": null,
+				"credit_effective_time": null,
+				"credit_level": "3",
+				"net_time": "2012-08-21",
+				"puk_code": null,
+				"current_fee": "5810",
+				"roam_state": null
+			},
+			"point_info": {
+				"point_record": [],
+				"point_detail": []
+			},
+			"base_info": {
+				"user_sex": "未知",
+				"cert_addr": "未知",
+				"user_email": "未知",
+				"user_name": "姚**",
+				"post_code": null,
+				"cert_num": "未知",
+				"user_number": "18312312345",
+				"user_contact_no": "未知"
+			},
+			"payment_info": [{
+				"pay_date": "2018-09-01",
+				"pay_channel": "其他",
+				"pay_fee": "4990",
+				"pay_type": "现金充值"
+			}],
+			"package_info": {
+				"brand_name": "全球通",
+				"pay_type": null,
+				"package_detail": []
+			},
+			"call_info": [{
+				"total_call_count": "54",
+				"total_call_time": "4343",
+				"total_fee": "0",
+				"call_cycle": "2018-09",
+				"call_record": [{
+					"call_cost": "0",
+					"call_land_type": "国内长途",
+					"call_long_distance": null,
+					"call_type_name": "被叫",
+					"call_time": "50",
+					"call_roam_cost": null,
+					"call_other_number": "18812312312",
+					"call_start_time": "2018-09-01 00:46:19",
+					"call_discount": null,
+					"call_address": "上海市.上海市"
+				}]
+			}]
+		},
+		"user_name": "1831234123",
+		"real_name": "姚**",
+		"channel_code": "100000",
+		"channel_type": "YYS",
+		
+		"lost_data": null
+	}
+}
+```
+
 **1-2\) operatorReportVerify 运营商报告数据**
 
-\*\*\*\*
+**与合作机构商定**
 
 **2\)idCardInfo 身份证认证**
 

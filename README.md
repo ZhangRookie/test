@@ -17,7 +17,7 @@
 
 #### **1.1测试环境地址**
 
-**www.zetafin.tech:9090/xlTraffic**
+**www.zetafin.tech:9090/channelApi**
 
 ### 2.鉴权方式
 
