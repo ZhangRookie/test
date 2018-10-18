@@ -8,7 +8,7 @@
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| orderNo | string | 否 | 借款订单唯一编号 |
+| orderNo | string | 是 | 借款订单唯一编号 |
 | bankCode | string | 是 | 绑卡银行编码 |
 | userName | string | 是 | 用户姓名 |
 | userIdCard | string | 是 | 用户身份证号 |
