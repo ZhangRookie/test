@@ -15,10 +15,8 @@ description: 本接口主要目的是过滤机构黑名单用户以及一些基�
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :---: | :--- | :--- |
 | userName | String | 是 | 用户姓名 |
-| userPhone | String | 是 | 用户手机号 |
-| userIdCard | String | 是 | 用户身份证号 |
-
-## 3.响应参数
+| userPhone | String | 是 | 用户手机号（掩后3位） |
+| userIdCard | String | 是 | 用户身份证号码（掩后4位） |
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
