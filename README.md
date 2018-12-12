@@ -61,7 +61,7 @@
     msg: "success",
     data:{
         "result": 200, 
-        "loan_mode": 0,
+        "loanMode": 0,
      }
 }
 ```
