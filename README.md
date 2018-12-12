@@ -60,9 +60,9 @@
     status: 0,
     msg: "success",
     data:{
-        "test1":0,
-        "test2":"123"
-    }
+        "result": 200, 
+        "loan_mode": 0,
+     }
 }
 ```
 
