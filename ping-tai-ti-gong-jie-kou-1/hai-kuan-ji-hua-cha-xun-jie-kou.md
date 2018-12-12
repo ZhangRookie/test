@@ -61,7 +61,7 @@ repaymentPlan 内元素结构说明
 | periodFeeDesc | string | 是 | 本期费用描述 |
 | payType | integer | 是 | 还款支付方式; 如: 0.未还款 1. 主动还款 2.系统扣款 3. 支付宝转账 4. 银行转账或其它方式 |
 
-## 请求示例 <a id="&#x8BF7;&#x6C42;&#x793A;&#x4F8B;"></a>
+## 5.请求示例 <a id="&#x8BF7;&#x6C42;&#x793A;&#x4F8B;"></a>
 
 ```text
 "orderSn":"246964109149933"
