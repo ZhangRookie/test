@@ -20,14 +20,14 @@ description: 合作机构对用户借款申请进行审核之后，将具体可�
 ## 请求示例 <a id="&#x8BF7;&#x6C42;&#x793A;&#x4F8B;"></a>
 
 ```text
- "order_sn": "245132241561415",
-    "approve_status": "200",
-    "approve_amount": "150000",
-    "approve_term": "3",
-    "term_type": "2",
-    "approve_remark": "ok",
-    "can_loan_time": "2017-12-29 08:00:00",
-    "updated_at":"1500387486"
+ "orderSn": "245132241561415",
+    "approveStatus": "200",
+    "approveAmount": "150000",
+    "approveTerm": "3",
+    "termType": "2",
+    "approveRemark": "ok",
+    "canLoanTime": "2017-12-29 08:00:00",
+    "updatedAt":"1500387486"
 ```
 
 ### 响应示例
