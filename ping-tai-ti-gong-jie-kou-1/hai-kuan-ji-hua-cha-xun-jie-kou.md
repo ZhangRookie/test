@@ -69,70 +69,68 @@ repaymentPlan 内元素结构说明
 
 响应示例
 
+
+
 ```text
-{
-    "status": 1,
-    "message": "success",
-    "response": {
-        "order_sn":"245132241561415",    
-        "total_amount": 465000,  
-        "total_svc_fee": 15000, 
-        "received_amount": 465000,    
-        "already_paid": 155000,    
-        "total_period": 3,
-        "finish_period": 1,
-        "repayment_plan":[
+ {
+        "orderSn":"245132241561415",    
+        "totalAmount": 465000,  
+        "totalSvcFee": 15000,   
+        "receivedAmount": 465000,   
+        "alreadyPaid": 155000,    
+        "totalPeriod": 3,
+        "finishPeriod": 1,
+        "repaymentPlan":[
             {
-                "period_no": "1",
+                "periodNo": "1",
                 "principle": 150000,
                 "interest": 1000,
-                "service_fee":4000,
-                "bill_status": 1, 
-                "total_amount": 153400,
-                "already_paid": 150000,
-                "loan_time": 1500387486, 
-                "due_time": 1500787486,
-                "can_pay_time": 1500762721,
-                "finish_pay_time": 1503354721,
-                "overdue_day": 2,
-                "overdue_fee": 3400,
-                "period_fee_desc": "三月还款费用明细", 
-                "pay_type": 1
+                "serviceFee":4000,
+                "billStatus": 1, 
+                "totalAmount": 153400,
+                "alreadyPaid": 150000,
+                "loanTime": 1500387486, 
+                "dueTime": 1500787486,
+                "canPayTime": 1500762721,
+                "finishPayTime": 1503354721,
+                "overdueDay": 2,
+                "overdueFee": 3400,
+                "periodFeeDesc": "三月还款费用明细", 
+                "payType": 1
             },{
-                "period_no": "2",
+                "periodNo": "2",
                 "principle": 150000,
                 "interest": 1000,
-                "service_fee":4000,
-                "bill_status": 0, 
-                "total_amount": 150000,
-                "already_paid": 0,
-                "loan_time": 1500387486, 
-                "due_time": 1500787486,
-                "can_pay_time": 1500762721,
-                "finish_pay_time": 0,
-                "overdue_day": 0,
-                "overdue_fee": 0,
-                "period_fee_desc": "四月还款费用明细",  
-                "pay_type": 0 
+                "serviceFee":4000,
+                "billStatus": 0, 
+                "totalAmount": 150000,
+                "alreadyPaid": 0,
+                "loanTime": 1500387486, 
+                "dueTime": 1500787486,
+                "canPayTime": 1500762721,
+                "finishPayTime": 0,
+                "overdueDay": 0,
+                "overdueFee": 0,
+                "periodFeeDesc": "四月还款费用明细",  
+                "payType": 0 
             },{
-                "period_no": "3",
+                "periodNo": "3",
                 "principle": 150000,
                 "interest": 1000,
-                "service_fee":4000,
-                "bill_status": -1, 
-                "total_amount": 150000,
-                "already_paid": 0,
-                "loan_time": 1500387486, 
-                "due_time": 1500787486,
-                "can_pay_time": 1500762721,
-                "finish_pay_time": 0,
-                "overdue_day": 0,
-                "overdue_fee": 0,
-                "period_fee_desc": "五月还款费用明细", 
-                "pay_type": 0
+                "serviceFee":4000,
+                "billStatus": -1, 
+                "totalAmount": 150000,
+                "alreadyPaid": 0,
+                "loanTime": 1500387486, 
+                "dueTime": 1500787486,
+                "canPayTime": 1500762721,
+                "finishPayTime": 0,
+                "overdueDay": 0,
+                "overdueFee": 0,
+                "periodFeeDesc": "五月还款费用明细", 
+                "payType": 0
             }
         ]
     }
-}
 ```
 
