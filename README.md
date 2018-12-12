@@ -38,10 +38,9 @@
 | ua | string | 是 | 开放平台分配给合作方的唯一标识 |
 | args | JSON | 是 | 接口的调用参数, 要求必须为JSON String. |
 | sign | string | 是 | 请求签名, 参考附录-签名规则 |
-| timeStamp | string | 否 | 时间戳 |
+| timeStamp | string | 否 | 以秒为单位的UnixTimestamp时间戳 |
 
 ```text
-{
     ua:"YBQB_PARTNER_XL",
     args: { 
         "orderNo": "59841a25c768b00e27ba3226", 
