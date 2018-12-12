@@ -21,6 +21,7 @@
 * [放款结果回调](he-zuo-ji-gou-ti-gong-jie-kou/fang-kuan-jie-guo-hui-tiao.md)
 * [还款计划推送](he-zuo-ji-gou-ti-gong-jie-kou/hai-kuan-ji-hua-tui-song.md)
 * [还款结果回调](he-zuo-ji-gou-ti-gong-jie-kou/hai-kuan-jie-guo-hui-tiao.md)
+* [审批结果回调](he-zuo-ji-gou-ti-gong-jie-kou/shen-pi-jie-guo-hui-tiao.md)
 
 ## 附录
 
