@@ -12,7 +12,7 @@
 * [订单绑卡接口](ping-tai-ti-gong-jie-kou-1/ding-dan-bang-ka-jie-kou.md)
 * [确认借款接口](ping-tai-ti-gong-jie-kou-1/tui-song-shou-xin-ding-dan-xin-xi.md)
 * [订单还款展期H5](ping-tai-ti-gong-jie-kou-1/ding-dan-hai-kuan-zhan-qi-h5.md)
-* [还款计划查询接口](ping-tai-ti-gong-jie-kou-1/hai-kuan-ji-hua-cha-xun-jie-kou.md)
+* [拉取还款计划](ping-tai-ti-gong-jie-kou-1/hai-kuan-ji-hua-cha-xun-jie-kou.md)
 
 ## 合作机构提供接口
 
