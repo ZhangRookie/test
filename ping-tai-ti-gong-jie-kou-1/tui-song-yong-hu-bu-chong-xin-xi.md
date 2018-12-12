@@ -4,18 +4,18 @@ description: 用户在完成平台产品所需的所有补充认证项，机构�
 
 # 推送用户补充信息
 
-## 请求参数 {#请求参数}
+## 请求参数 <a id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;"></a>
 
-### 3.1. 参数总览 {#参数总览}
+### 3.1. 参数总览 <a id="&#x53C2;&#x6570;&#x603B;&#x89C8;"></a>
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
 | orderInfo | object | 是 | 用户订单信息 |
 | userAdditional | object | 是 | 用户补充信息 |
 
-### 3.2. 参数明细 {#参数明细}
+### 3.2. 参数明细 <a id="&#x53C2;&#x6570;&#x660E;&#x7EC6;"></a>
 
-#### 3.2.1. orderInfo 用户订单信息 {#order_info}
+#### 3.2.1. orderInfo 用户订单信息 <a id="order_info"></a>
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ description: 用户在完成平台产品所需的所有补充认证项，机构�
 | loan\_amount | string | 是 | 借款金额\(单位:分\) |
 | userPhone | string | 是 | 用户明文手机号 |
 
-####  3.2.2 userAdditional 补充信息详情 {#user_additional}
+####  3.2.2 userAdditional 补充信息详情 <a id="user_additional"></a>
 
 **1\) deviceInfo 设备信息**
 

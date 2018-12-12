@@ -22,3 +22,7 @@
 * [还款计划推送](he-zuo-ji-gou-ti-gong-jie-kou/hai-kuan-ji-hua-tui-song.md)
 * [还款结果回调](he-zuo-ji-gou-ti-gong-jie-kou/hai-kuan-jie-guo-hui-tiao.md)
 
+## 附录
+
+* [签名规则](fu-lu/qian-ming-gui-ze.md)
+
