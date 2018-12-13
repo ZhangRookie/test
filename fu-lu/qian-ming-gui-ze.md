@@ -1,5 +1,5 @@
 ---
-description: 合作机构需与好借平台索取唯一：ua 与 key
+description: 合作机构需与一本钱包平台索取唯一：ua 与 key
 ---
 
 # 签名规则
