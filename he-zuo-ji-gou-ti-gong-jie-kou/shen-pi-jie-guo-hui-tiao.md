@@ -1,5 +1,5 @@
 ---
-description: 合作机构对用户借款申请进行审核之后，将具体可申请金额和审批结果通过本接口推送给平台
+description: 平台对用户借款申请进行审核之后，将具体可申请金额和审批结果通过本接口推送给合作机构
 ---
 
 # 审批结果回调
@@ -20,7 +20,7 @@ description: 合作机构对用户借款申请进行审核之后，将具体可�
 ### 2.请求示例
 
 ```text
- "orderSn": "245132241561415",
+    "orderSn": "245132241561415",
     "approveStatus": "200",
     "approveAmount": "150000",
     "approveTerm": "3",
@@ -38,7 +38,7 @@ description: 合作机构对用户借款申请进行审核之后，将具体可�
 {
     status: 1,
     message: "success",
-    response: null
+    data: null
 }
 ```
 
