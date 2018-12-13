@@ -17,7 +17,7 @@
 
 #### **1.1测试环境地址**
 
-**www.zetafin.tech:9090/channelApi**
+www.zetafin.tech:9090/channelApi
 
 ### 2.鉴权方式
 
@@ -37,7 +37,7 @@
 | :--- | :--- | :--- | :--- |
 | ua | string | 是 | 开放平台分配给合作方的唯一标识 |
 | args | JSON | 是 | 接口的调用参数, 要求必须为JSON String. |
-| sign | string | 是 | 请求签名, 参考附录-签名规则 |
+| sign | string | 是 | 请求签名, 参考[附录-签名规则](fu-lu/qian-ming-gui-ze.md) |
 | timeStamp | string | 否 | 以秒为单位的UnixTimestamp时间戳 |
 
 ```text
