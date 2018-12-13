@@ -42,7 +42,7 @@ www.zetafin.tech:9090/channelApi
 
 ```text
 {
-   ua:"YBQB_PARTNER_XL",
+    ua:"YBQB_PARTNER_XL",
     args: { 
         "orderNo": "59841a25c768b00e27ba3226", 
         "approveResult": "OK",
