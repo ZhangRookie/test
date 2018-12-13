@@ -13,8 +13,7 @@ description: 此接口为基于页面跳转的还款流程提供支持
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
 | orderNo | string | 是 | 借款订单唯一编号 |
-| sign | string | 是 | 签名:订单号 |
-| returnUrl | String | 否 | 机构还款完成后的回跳平台地址 |
+| returnUrl | String | 否 | 平台还款完成后的回跳机构地址 |
 
 ## 3.返回参数
 
