@@ -8,7 +8,7 @@
 * [推送用户基本信息](ping-tai-ti-gong-jie-kou-1/tui-song-yong-hu-ji-ben-xin-xi.md)
 * [H5补充认证项](ping-tai-ti-gong-jie-kou-1/h5-bu-chong-ren-zheng-xiang.md)
 * [推送用户补充信息](ping-tai-ti-gong-jie-kou-1/tui-song-yong-hu-bu-chong-xin-xi.md)
-* [获取绑卡银行卡列表](ping-tai-ti-gong-jie-kou-1/huo-qu-bang-ka-yin-hang-ka-lie-biao.md)
+* [获取支持卡银行卡列表](ping-tai-ti-gong-jie-kou-1/huo-qu-bang-ka-yin-hang-ka-lie-biao.md)
 * [订单绑卡接口](ping-tai-ti-gong-jie-kou-1/ding-dan-bang-ka-jie-kou.md)
 * [确认借款接口](ping-tai-ti-gong-jie-kou-1/tui-song-shou-xin-ding-dan-xin-xi.md)
 * [订单还款展期H5](ping-tai-ti-gong-jie-kou-1/ding-dan-hai-kuan-zhan-qi-h5.md)

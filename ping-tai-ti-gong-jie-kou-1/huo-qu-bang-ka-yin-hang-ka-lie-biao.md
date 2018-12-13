@@ -2,7 +2,7 @@
 description: 此接口用户获取平台所支持的银行列表
 ---
 
-# 获取绑卡银行卡列表
+# 获取支持卡银行卡列表
 
 ## 1.请求路径
 
@@ -24,12 +24,12 @@ description: 此接口用户获取平台所支持的银行列表
     message: "success",
     response: [
         {
-            "bank_name": "工商银行",
-            "bank_code": "ICBC"
+            "bankName": "工商银行",
+            "bankCode": "ICBC"
         },
         {
-            "bank_name": "中国银行",
-            "bank_code": "BOC"
+            "bankName": "中国银行",
+            "bankCode": "BOC"
         }
     ]
 }
