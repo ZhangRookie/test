@@ -86,15 +86,5 @@ description: 用户在完成平台产品所需的所有补充认证项，机构�
 | companyName | string | 是 | 公司名称 |
 | areas | string | 是 | 公司地区：省,市,区 \(英文逗号区隔\) |
 | address | string | 是 | 公司地址 |
-| type | int | 是 | 公司类型：1.政府或企事业单位，2.央企国企，3.外资企业，4.上市公司，5.民营企业，6.个体工商户 |
-| workAge | int | 是 | 当前单位工龄: 1.0-5个月,2.6-11个月; 3.1-3年; 4.3-7年 5.7年以上 |
-| payType | int | 是 | 工资发放形式: 1.银行代发 2.现金发放 3.部分银行部分现金 |
-| revenue | int | 是 | 月收入 |
-| revenueArea | int | 是 | 月工资: 1.3000及以下,2.3000-5000,3.5000-10000,4.10000以上 |
-| companyPosition | int | 是 | 工作职位 :1.普通员工,2.部门主管,3.部门总监,4.公司高管 |
 | telNo | string | 是 | 公司电话 |
-| telArea | string | 是 | 公司电话区号 |
-| companyEmail | string | 是 | 公司邮箱 |
-| payDay | int | 是 | 工资发放日 |
-| companyEntryDate | string | 是 | 入职时间 |
 
