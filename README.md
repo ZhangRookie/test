@@ -27,7 +27,7 @@ www.zetafin.tech:9090/channelApi
 
 ### **3.数据交互规范**
 
-1. 双方均使用HTTP\(S\)协议进行数据通信； 
+1. 双方均使用HTTP协议进行数据通信； 
 2. 请求数据均使用POST方式发送（Content-Type: application/json）； 
 3. 双方的接口响应数据字符集必须为utf8编码，且返回的数据各项必须为JSON格式字符串；
 
