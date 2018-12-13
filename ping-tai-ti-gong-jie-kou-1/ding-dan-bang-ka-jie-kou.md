@@ -12,7 +12,7 @@
 | bankCode | string | 是 | 绑卡银行编码 |
 | userName | string | 是 | 用户姓名 |
 | userIdCard | string | 是 | 用户身份证号 |
-| cardNumber | string | 是 | 银行卡号 |
+| cardNumber | string | 是 | 银行卡号\(只支持借记卡\) |
 | cardPhone | string | 是 | 银行预留手机号 |
 | userPhone | string | 是 | 用户准入时的明文手机号 |
 | echoData | string | 是 | 回显数据字段, 此字段仅要求在绑卡结果回调接口中回传即可 |
