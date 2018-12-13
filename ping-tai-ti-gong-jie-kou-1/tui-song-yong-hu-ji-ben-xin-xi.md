@@ -39,8 +39,6 @@ description: 用户在产品详情页，完成基础信息认证，并且通过�
 
 **1-1\) operatorVerify 运营商原始数据**
 
-{% file src="../.gitbook/assets/fileddescription.xlsx" caption="字段说明" %}
-
 ```text
 {
 	"data": {
