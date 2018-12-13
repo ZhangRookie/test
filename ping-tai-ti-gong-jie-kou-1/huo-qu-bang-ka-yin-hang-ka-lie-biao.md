@@ -22,7 +22,7 @@ description: 此接口用户获取平台所支持的银行列表
 {
     status: 1,
     message: "success",
-    response: [
+    data: [
         {
             "bankName": "工商银行",
             "bankCode": "ICBC"
