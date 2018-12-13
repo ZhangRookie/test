@@ -110,7 +110,7 @@ description: 平台放款成功、展期、逾期、还款成功后向合作机�
 {
     status: 1,
     message: "success",
-    response: null
+    data: null
 }
 ```
 
