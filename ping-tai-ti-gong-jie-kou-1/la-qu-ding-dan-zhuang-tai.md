@@ -18,7 +18,7 @@ description: 从一本钱包获取当前订单状态
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| status | String | 是 | 订单状态 |
+| status | integer | 是 | 订单状态 |
 | description | String | 是 | 状态描述 |
 
 ### 4.状态列表
@@ -36,5 +36,30 @@ description: 从一本钱包获取当前订单状态
 | 210 | 待放款 | 用户确认后进入待放款状态 |
 | 310 | 订单创建成功 | 用于机构异步处理订单成功使用 |
 
+### 5.请求示例
 
+```text
+{
+    ua:"YBQB_PARTNER_XL",
+    args: { 
+        "orderNo": "59841a25c768b00e27ba3226", 
+        "approveResult": "OK",
+    },
+    sign:"{签名规则参考 接口请求签名章节}",
+    timeStamp:"1500693926"
+}
+```
+
+### 6.响应示例
+
+```text
+{
+    status: 1,
+    msg: "success",
+    data:{
+        "status": 169, 
+        "description": "放款失败",
+     }
+}
+```
 
