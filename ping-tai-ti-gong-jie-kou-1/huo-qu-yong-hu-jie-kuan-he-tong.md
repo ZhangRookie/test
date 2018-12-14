@@ -20,7 +20,7 @@
 ### 4.请求示例
 
 ```text
-ua: "SH_XJ360_POA",
+ua: "YBQB_PARTNER_XL",
 call: "Order.getContracts",
 args: {                 
     "orderNo":"246964109149933",
