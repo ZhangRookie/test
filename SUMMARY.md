@@ -13,6 +13,7 @@
 * [订单还款展期H5](ping-tai-ti-gong-jie-kou-1/ding-dan-hai-kuan-zhan-qi-h5.md)
 * [拉取还款计划](ping-tai-ti-gong-jie-kou-1/hai-kuan-ji-hua-cha-xun-jie-kou.md)
 * [拉取订单状态](ping-tai-ti-gong-jie-kou-1/la-qu-ding-dan-zhuang-tai.md)
+* [获取用户借款合同](ping-tai-ti-gong-jie-kou-1/huo-qu-yong-hu-jie-kuan-he-tong.md)
 
 ## 合作机构提供接口
 
