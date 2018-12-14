@@ -43,7 +43,6 @@ description: 从一本钱包获取当前订单状态
     ua:"YBQB_PARTNER_XL",
     args: { 
         "orderNo": "59841a25c768b00e27ba3226", 
-        "approveResult": "OK",
     },
     sign:"{签名规则参考 接口请求签名章节}",
     timeStamp:"1500693926"
