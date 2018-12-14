@@ -58,7 +58,7 @@ description: 从一本钱包获取当前订单状态
     msg: "success",
     data:{
         "status": 169, 
-        "description": "放款失败",
+        "description": "放款失败"
      }
 }
 ```
