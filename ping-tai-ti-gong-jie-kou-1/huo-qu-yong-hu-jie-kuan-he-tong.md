@@ -37,7 +37,7 @@ timestamp: "1500693926"
     "status": 1,
     "message": "success",
     "data": {
-        name: "协议类型名称", link: "协议查看地址"
+        name: "协议类型名称", link: "协议查看地址",
     {
 }
 ```
