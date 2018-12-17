@@ -16,10 +16,17 @@ description: 用户完成还款后通知合作平台。 包括扣款成功、扣
 ## 2.请求示例
 
 ```text
-"orderNo":"245132241561415",
-"repayResult":"401",
-"updatedAt": "1500762721",
-"failReason": "账户余额不足，无法完成扣款操作。"
+{
+    ua:"YBQB_PARTNER_XL",
+    args: { 
+         "orderNo":"245132241561415",
+         "repayResult":"401",
+         "updatedAt": "1500762721",
+         "failReason": "账户余额不足，无法完成扣款操作。"
+    },
+    sign:"{签名规则参考 接口请求签名章节}",
+    timeStamp:"1500693926"
+}
 ```
 
 ## 3.响应示例
