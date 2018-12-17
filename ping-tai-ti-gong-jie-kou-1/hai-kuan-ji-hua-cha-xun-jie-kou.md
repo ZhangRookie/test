@@ -64,7 +64,14 @@ repaymentPlan 内元素结构说明
 ## 5.请求示例 <a id="&#x8BF7;&#x6C42;&#x793A;&#x4F8B;"></a>
 
 ```text
-"orderSn":"246964109149933"
+{
+    ua:"YBQB_PARTNER_XL",
+    args: { 
+        "orderNo": "59841a25c768b00e27ba3226", 
+    },
+    sign:"{签名规则参考 接口请求签名章节}",
+    timeStamp:"1500693926"
+}
 ```
 
 响应示例
