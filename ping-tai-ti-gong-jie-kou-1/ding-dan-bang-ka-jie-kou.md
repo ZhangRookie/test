@@ -28,15 +28,23 @@
 ### 4.请求示例
 
 ```text
-"orderNo":"246964109149933",    
-"bankCode":"ICBC",        
-"userName":"张三",        
-"userIdCard":"610121190001011122",
-"cardNumber":"6222022005001212723",       
-"cardPhone":"13245678901",
-"userPhone":"13370212345",
-"echoData": "{pid: 123456}",
-"verifyCode": "376258"
+{
+    ua:"YBQB_PARTNER_XL",
+    args: { 
+        "orderNo":"246964109149933",    
+        "bankCode":"ICBC",        
+        "userName":"张三",        
+        "userIdCard":"610121190001011122",
+        "cardNumber":"6222022005001212723",       
+        "cardPhone":"13245678901",
+        "userPhone":"13370212345",
+        "echoData": "{pid: 123456}",
+        "verifyCode": "376258"
+    },
+    sign:"{签名规则参考 接口请求签名章节}",
+    timeStamp:"1500693926"
+}
+
 ```
 
 ### 5.响应示例
