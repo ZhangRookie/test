@@ -69,5 +69,5 @@ www.zetafin.tech:9090/channelApi
 
 ### 6.借款流程
 
-![](.gitbook/assets/wechatimg8.png)
+![](.gitbook/assets/wechatimg11.jpeg)
 
