@@ -20,14 +20,22 @@ description: 平台对用户借款申请进行审核之后，将具体可申请�
 ### 2.请求示例
 
 ```text
-    "orderSn": "245132241561415",
+
+ua: "YBQB_PARTNER_XL",
+call: "Order.getContracts",
+args: {                 
+   "orderSn": "245132241561415",
     "approveStatus": "200",
     "approveAmount": "150000",
     "approveTerm": "3",
     "termType": "2",
     "approveRemark": "ok",
     "canLoanTime": "2017-12-29 08:00:00",
-    "updatedAt":"1500387486"
+    "updatedAt":"1500387486"},
+sign: "略...",
+timestamp: "1500693926"
+    
+ 
 ```
 
 ### 3.响应示例
