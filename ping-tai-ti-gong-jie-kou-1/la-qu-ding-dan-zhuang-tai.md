@@ -20,6 +20,8 @@ description: 从一本钱包获取当前订单状态
 | :--- | :--- | :--- | :--- |
 | status | integer | 是 | 订单状态 |
 | description | String | 是 | 状态描述 |
+| orderNo | string | 是 | 订单唯一编号 |
+| updateTime | timestamp | 是 | 订单变更时间 |
 
 ### 4.状态列表
 
@@ -58,6 +60,8 @@ description: 从一本钱包获取当前订单状态
     data:{
         "status": 169, 
         "description": "放款失败"
+        "orderNo": "59841a25c768b00e27ba3226"
+         "updateTime": 1909929394234
      }
 }
 ```
