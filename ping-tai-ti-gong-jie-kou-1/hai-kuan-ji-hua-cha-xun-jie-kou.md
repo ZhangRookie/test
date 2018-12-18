@@ -32,7 +32,7 @@ description: >-
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| orderSn | string | 是 | 订单唯一编号 |
+| orderNo | string | 是 | 订单唯一编号 |
 | totalAmount | integer | 是 | 还款总额; 单位: 分 |
 | totalSvcFee | integer | 是 | 总服务费; 单位: 分 |
 | receivedAmount | integer | 是 | 到账金额; 单位: 分 |
