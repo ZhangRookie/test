@@ -43,7 +43,7 @@ description: 平台放款成功、展期、逾期、还款成功后向合作机�
 
 ```text
    {
-        "orderSn":"245132241561415",    
+        "orderNo":"245132241561415",    
         "totalAmount": 465000,  
         "totalSvcFee": 15000,   
         "receivedAmount": 465000,   

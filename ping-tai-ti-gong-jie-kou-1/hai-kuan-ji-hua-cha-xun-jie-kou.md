@@ -80,7 +80,7 @@ repaymentPlan 内元素结构说明
 
 ```text
  {
-        "orderSn":"245132241561415",    
+        "orderNo":"245132241561415",    
         "totalAmount": 465000,  
         "totalSvcFee": 15000,   
         "receivedAmount": 465000,   
