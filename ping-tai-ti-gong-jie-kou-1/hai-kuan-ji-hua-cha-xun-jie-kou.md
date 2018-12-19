@@ -17,7 +17,7 @@ description: >-
 
 ## 2.请求路径
 
- /getRepayplan
+ /getRepaymentPlan
 
 ## 3.请求参数 <a id="&#x8BF7;&#x6C42;&#x53C2;&#x6570;"></a>
 
