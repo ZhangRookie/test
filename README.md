@@ -21,7 +21,7 @@ description: 当前版本  v1.0.0
 
 #### **1.1测试环境地址**
 
-www.zetafin.tech:9090/rest/channelApi
+http://www.zetafin.tech:9090/rest/channelApi
 
 ### 2.鉴权方式
 
