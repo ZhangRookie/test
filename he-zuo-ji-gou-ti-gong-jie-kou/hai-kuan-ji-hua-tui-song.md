@@ -67,38 +67,6 @@ description: 平台放款成功、展期、逾期、还款成功后向合作机�
                 "overdueFee": 3400,
                 "periodFeeDesc": "三月还款费用明细", 
                 "payType": 1
-            },{
-                "periodNo": "2",
-                "principle": 150000,
-                "interest": 1000,
-                "serviceFee":4000,
-                "billStatus": 0, 
-                "totalAmount": 150000,
-                "alreadyPaid": 0,
-                "loanTime": 1500387486, 
-                "dueTime": 1500787486,
-                "canPayTime": 1500762721,
-                "finishPayTime": 0,
-                "overdueDay": 0,
-                "overdueFee": 0,
-                "periodFeeDesc": "四月还款费用明细",  
-                "payType": 0 
-            },{
-                "periodNo": "3",
-                "principle": 150000,
-                "interest": 1000,
-                "serviceFee":4000,
-                "billStatus": -1, 
-                "totalAmount": 150000,
-                "alreadyPaid": 0,
-                "loanTime": 1500387486, 
-                "dueTime": 1500787486,
-                "canPayTime": 1500762721,
-                "finishPayTime": 0,
-                "overdueDay": 0,
-                "overdueFee": 0,
-                "periodFeeDesc": "五月还款费用明细", 
-                "payType": 0
             }
         ]
     }
