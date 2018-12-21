@@ -20,7 +20,7 @@ description: 平台对用户借款进行放款之后，将放款结果通知给�
     ua:"YBQB_PARTNER_XL",
     args: { 
          "orderNo":"245132241561415",
-         "lendingStatus":"200",
+         "lendingStatus":200,
          "failReason": "ok"
          "updatedAt":"1500387486",
     },
