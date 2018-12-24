@@ -169,17 +169,17 @@ description: 用户在产品详情页，完成基础信息认证，并且通过�
 
 | 参数 | 类型 | 是否必选 | 描述 | 父节点字段 |
 | :--- | :--- | :--- | :--- | :--- |
-| faceRecognitionPicture | string | 否 | 活体识别头像URL | idCardInfo |
+| faceRecognitionPicture | string | 是 | 活体识别头像URL | idCardInfo |
 | idNumberPicture | string | 否 | 手持身份证头像URL | idCardInfo |
-| idNumberZPicture | string | 否 | 身份证正面照片URL | idCardInfo |
-| idNumberFPicture | string | 否 | 身份证反面照片URL | idCardInfo |
-| ocrName | string | 否 | OCR识别身份证姓名 | idCardInfo |
-| ocrRace | string | 否 | OCR识别身份证民族 | idCardInfo |
-| ocrSex | string | 否 | OCR识别身份证性别 | idCardInfo |
-| ocrBirthday | string | 否 | OCR识别身份证出生日期 | idCardInfo |
-| ocrIdNumber | string | 否 | OCR识别身份证号 | idCardInfo |
-| ocrAddress | string | 否 | OCR识别身份证地址 | idCardInfo |
-| ocrIssuedBy | string | 否 | OCR识别身份证发证机关 | idCardInfo |
-| ocrStartTime | string | 否 | OCR识别身份证有效期开始时间 | idCardInfo |
-| ocrEndTime | string | 否 | OCR识别身份证有效期结束时间 | idCardInfo |
+| idNumberZPicture | string | 是 | 身份证正面照片URL | idCardInfo |
+| idNumberFPicture | string | 是 | 身份证反面照片URL | idCardInfo |
+| ocrName | string | 是 | OCR识别身份证姓名 | idCardInfo |
+| ocrRace | string | 是 | OCR识别身份证民族 | idCardInfo |
+| ocrSex | string | 是 | OCR识别身份证性别 | idCardInfo |
+| ocrBirthday | string | 是 | OCR识别身份证出生日期 | idCardInfo |
+| ocrIdNumber | string | 是 | OCR识别身份证号 | idCardInfo |
+| ocrAddress | string | 是 | OCR识别身份证地址 | idCardInfo |
+| ocrIssuedBy | string | 是 | OCR识别身份证发证机关 | idCardInfo |
+| ocrStartTime | string | 是 | OCR识别身份证有效期开始时间 | idCardInfo |
+| ocrEndTime | string | 是 | OCR识别身份证有效期结束时间 | idCardInfo |
 
