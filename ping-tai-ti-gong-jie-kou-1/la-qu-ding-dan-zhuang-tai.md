@@ -18,7 +18,7 @@ description: 从一本钱包获取当前订单状态
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| status | integer | 是 | 订单状态 |
+| orderStatus | integer | 是 | 订单状态 |
 | description | String | 是 | 状态描述 |
 | orderNo | string | 是 | 订单唯一编号 |
 | updateTime | timestamp | 是 | 订单变更时间 |
