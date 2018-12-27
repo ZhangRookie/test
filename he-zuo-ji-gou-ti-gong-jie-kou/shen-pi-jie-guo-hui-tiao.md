@@ -14,7 +14,7 @@ description: 平台对用户借款申请进行审核之后，将具体可申请�
 | approveTerm | string | 是 | 审批后的可借周期 |
 | termType | string | 是 | 1:按天; 2：按月; 3：按年 |
 | approveRemark | string | 是 | 审批状态备注 |
-| canLoanTime | string | 是 | 可以再次申请借款的时间，此时间之前将不在请求用户过滤接口。值如：2017-03-29 08:00:00 |
+| canLoanTime | string | 否 | 可以再次申请借款的时间，此时间之前将不在请求用户过滤接口。值如：2017-03-29 08:00:00（审核拒绝情况下会传） |
 | updatedAt | string | 是 | 订单状态变更时间\(10位时间戳\) |
 
 ### 2.请求示例

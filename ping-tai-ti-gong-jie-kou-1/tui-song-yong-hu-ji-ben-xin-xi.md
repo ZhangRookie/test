@@ -14,20 +14,12 @@ description: 用户在产品详情页，完成基础信息认证，并且通过�
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
-| orderInfo | object | 是 | 订单基础信息 |
 | userInfo | object | 是 | 用户基础信息 |
 | userVerify | object | 是 | 用户认证信息 |
 
 ### 2.2. 参数明细 <a id="&#x53C2;&#x6570;&#x660E;&#x7EC6;"></a>
 
-#### 2.2.1. orderInfo订单基础信息
-
-| 参数 | 类型 | 是否必选 | 描述 |
-| :--- | :--- | :--- | :--- |
-| orderNo | string | 是 | 订单唯一编号 |
-| loanMount | string | 是 | 借款金额\(单位:分\) |
-
-#### 2.2.2. userInfo 用户信息详情 <a id="user_info"></a>
+#### 2.2.1. userInfo 用户信息详情 <a id="user_info"></a>
 
 | 参数 | 类型 | 是否必选 | 描述 |
 | :--- | :--- | :--- | :--- |
@@ -35,7 +27,7 @@ description: 用户在产品详情页，完成基础信息认证，并且通过�
 | userPhone | string | 是 | 用户明文手机号 |
 | userIdCard | string | 是 | 用户明文身份证 |
 
-#### 2.2.3. userVerify 认证信息详情 <a id="user_verify"></a>
+#### 2.2.2. userVerify 认证信息详情 <a id="user_verify"></a>
 
 **1-1\) operatorVerify 运营商原始数据**
 
