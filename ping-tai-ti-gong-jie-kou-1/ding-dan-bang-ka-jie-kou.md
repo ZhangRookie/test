@@ -15,7 +15,6 @@
 | cardNumber | string | 是 | 银行卡号\(只支持借记卡\) |
 | cardPhone | string | 是 | 银行预留手机号 |
 | userPhone | string | 是 | 用户准入时的明文手机号 |
-| echoData | string | 是 | 回显数据字段, 此字段仅要求在绑卡结果回调接口中回传即可 |
 | verifyCode | string | 否 | 绑卡验证码，当已发送验证码之后再次请求提交 |
 
 ### 3. 响应参数
