@@ -5,6 +5,7 @@
 ## 平台提供接口
 
 * [用户过滤接口](ping-tai-ti-gong-jie-kou-1/yong-hu-guo-lv-jie-kou.md)
+* [借款试算](ping-tai-ti-gong-jie-kou-1/jie-kuan-shi-suan.md)
 * [推送用户基本信息](ping-tai-ti-gong-jie-kou-1/tui-song-yong-hu-ji-ben-xin-xi.md)
 * [推送用户补充信息](ping-tai-ti-gong-jie-kou-1/tui-song-yong-hu-bu-chong-xin-xi.md)
 * [获取支持卡银行卡列表](ping-tai-ti-gong-jie-kou-1/huo-qu-bang-ka-yin-hang-ka-lie-biao.md)
